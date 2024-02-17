@@ -53,7 +53,7 @@ startup
     if(timer.CurrentTimingMethod == TimingMethod.RealTime)
     {        
         var timingMessage = MessageBox.Show(
-            "This game uses Game Time (without loads) as the main timing method. "+
+            "This Autosplitter has a load removal Time without loads. "+
             "LiveSplit is currently set to display and compare against Real Time (including loads).\n\n"+
             "Would you like the timing method to be set to Game Time?",
             "Assassin's Creed 3: Liberation Remastered | LiveSplit",
