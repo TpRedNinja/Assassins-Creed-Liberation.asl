@@ -28,7 +28,7 @@ state("ACLiberation", "steam")
 
 state("ACIII","UbisoftConnect")
 {
-int IsLoading: 0x0324C990, 0xB8, 0x2F8, 0x38, 0x30;
+int IsLoading: 0x03206FC8, 0x48, 0x2F8, 0x38, 0x30;
 int percentage: 0x03269CC8, 0xC20, 0xB40, 0x6B8, 0x4;
 int IGT: 0x03203450, 0x738, 0x2B0, 0x398, 0x80;
 }
@@ -150,8 +150,7 @@ init
 
 update
 {
-    //script for current percentage and IGT for both games tied to this
-    if (current != null)
+    if (current.percentage != null)
     {
         int percentageValue = current.percentage;
         if (percentageValue == 100)
@@ -162,21 +161,20 @@ update
         {
             vars.SetText("Current Percentage:", percentageValue + "%", "center");
         }
-        
-        if (current.IGT != null)
-        {
-            TimeSpan timeSpan = TimeSpan.FromSeconds(current.IGT);
-            string formattedTime = timeSpan.Hours.ToString("D2") + ":" + timeSpan.Minutes.ToString("D2") + ":" + timeSpan.Seconds.ToString("D2");
-            vars.SetText("Current IGT:", formattedTime, "center");
-        }
-        else
-        {
-            vars.SetText("Current IGT:", "N/A", "center");
-        }
     }
     else
     {
         vars.SetText("Current Percentage:", "N/A", "center");
+    }
+    
+    if (current.IGT != null)
+    {
+        TimeSpan timeSpan = TimeSpan.FromSeconds(current.IGT);
+        string formattedTime = timeSpan.Hours.ToString("D2") + ":" + timeSpan.Minutes.ToString("D2") + ":" + timeSpan.Seconds.ToString("D2");
+        vars.SetText("Current IGT:", formattedTime, "center");
+    }
+    else
+    {
         vars.SetText("Current IGT:", "N/A", "center");
     }
 }
