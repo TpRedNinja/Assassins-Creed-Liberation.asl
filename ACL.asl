@@ -109,7 +109,7 @@ startup
 
     //Literally a setting to split on every mission
     settings.Add("Mission", true, "Mission", "Game");
-
+    settings.SetToolTip("Mission", "Choose this if you want both games to split after a mission is completed note for ac3 missions with no constraints give 0 progression added along with first desmond mission at the very beginning of the game")
     // Asks the user if they want to change to game time if the comparison is set to real time on startup.
     if(timer.CurrentTimingMethod == TimingMethod.RealTime)
     {        
@@ -161,9 +161,9 @@ init
 
 update
 {
-    vars.SetText("Percentage Completion", "N/A");
+    vars.SetTextComponent("Percentage Completion", "N/A");
     if (current.percentage != null)
-        vars.SetText("Percentage Completion", current.percentage + "%");
+        vars.SetTextComponent("Percentage Completion", current.percentage + "%");
 }
 
 start
