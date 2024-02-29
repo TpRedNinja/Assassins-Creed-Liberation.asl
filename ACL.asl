@@ -108,7 +108,7 @@ startup
     settings.Add("Sequence 9_ACL", false, "Sequence 9_ACL","Assassins Creed Liberation Remastered");
 
     //Literally a setting to split on every mission
-    settings.Add("Mission", true, "Mission", "Assassins Creed Liberation Remastered" "Assassins Creed III Remasterd");
+    settings.Add("Mission", true, "Mission", "Game");
 
     // Asks the user if they want to change to game time if the comparison is set to real time on startup.
     if(timer.CurrentTimingMethod == TimingMethod.RealTime)
