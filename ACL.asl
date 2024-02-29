@@ -83,29 +83,29 @@ startup
     settings.SetToolTip("Assassin's Creed Liberation Remastered", "Choose this if you are playing Assassin's Creed Liberation Remastered");
     
     //sequence settings for Assassin's Creed III Remastered
-    settings.Add("Sequence 1_AC3", false, "Sequence 1_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 2_AC3", false, "Sequence 2_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 3_AC3", false, "Sequence 3_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 4_AC3", false, "Sequence 4_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 5_AC3", false, "Sequence 5_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 6_AC3", false, "Sequence 6_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 7_AC3", false, "Sequence 7_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 8_AC3", false, "Sequence 8_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 9_AC3", false, "Sequence 9_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 10_AC3", false, "Sequence 10_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 11_AC3", false, "Sequence 11_AC3","Assassins Creed III Remastered");
-    settings.Add("Sequence 12_AC3", false, "Sequence 12_AC3","Assassins Creed III Remastered");
+    settings.Add("Sequence 1_AC3", false, "Sequence 1_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 2_AC3", false, "Sequence 2_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 3_AC3", false, "Sequence 3_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 4_AC3", false, "Sequence 4_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 5_AC3", false, "Sequence 5_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 6_AC3", false, "Sequence 6_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 7_AC3", false, "Sequence 7_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 8_AC3", false, "Sequence 8_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 9_AC3", false, "Sequence 9_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 10_AC3", false, "Sequence 10_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 11_AC3", false, "Sequence 11_AC3","Assassin's Creed III Remastered");
+    settings.Add("Sequence 12_AC3", false, "Sequence 12_AC3","Assassin's Creed III Remastered");
 
     //sequence settings for Assassin's Creed Liberation Remastered
-    settings.Add("Sequence 1_ACL", false, "Sequence 1_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 2_ACL", false, "Sequence 2_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 3_ACL", false, "Sequence 3_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 4_ACL", false, "Sequence 4_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 5_ACL", false, "Sequence 5_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 6_ACL", false, "Sequence 6_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 7_ACL", false, "Sequence 7_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 8_ACL", false, "Sequence 8_ACL","Assassins Creed Liberation Remastered");
-    settings.Add("Sequence 9_ACL", false, "Sequence 9_ACL","Assassins Creed Liberation Remastered");
+    settings.Add("Sequence 1_ACL", false, "Sequence 1_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 2_ACL", false, "Sequence 2_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 3_ACL", false, "Sequence 3_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 4_ACL", false, "Sequence 4_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 5_ACL", false, "Sequence 5_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 6_ACL", false, "Sequence 6_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 7_ACL", false, "Sequence 7_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 8_ACL", false, "Sequence 8_ACL","Assassin's Creed Liberation Remastered");
+    settings.Add("Sequence 9_ACL", false, "Sequence 9_ACL","Assassin's Creed Liberation Remastered");
 
     //Literally a setting to split on every mission
     settings.Add("Mission", true, "Mission", "Game");
@@ -189,7 +189,7 @@ split
     
     if(settings["Sequence 1_AC3"])
     {if(current.percentage == 2 && old.percentage == 1){
-        return true
+        return true;
         }
     }  
 }
