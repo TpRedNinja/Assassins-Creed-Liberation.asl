@@ -1,4 +1,4 @@
-# Assassins-Creed-Liberation.asl
+# Assassins-Creed-III & Liberation Remastered.asl
 A autosplitter and load removal for Assassins Creed 3 & Liberation remastred for steam and ubisoft connect versions of the game.
 To make it work either download the script and add it to your livesplit layout or activate it through livesplit when you edit splits.
 
